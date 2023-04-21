@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".resumeActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--heder-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            app:cardBackgroundColor="@color/Green">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:src="@drawable/list"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:text="Contact Info"
+                    android:textSize="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/edtFname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"/>
+
+
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:id="@+id/edtFname"-->
+<!--            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="@dimen/_10ssp"-->
+<!--            android:hint="Enter Name">-->
+
+<!--            <com.google.android.material.textfield.TextInputEditText-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"/>
+
+        <EditText
+            android:id="@+id/edtMnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:maxLength="10"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:inputType="number"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"/>
+
+        <EditText
+            android:id="@+id/edtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address(optional)"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"/>
+
+        <EditText
+            android:id="@+id/edtDbirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date of Birth(optional)"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:inputType="number"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30ssp"
+                android:layout_gravity="center"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck">
+            </Spinner>
+
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:id="@+id/edtSchool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="School/Univercity"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"/>
+
+
+
+        <EditText
+            android:id="@+id/edtYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Year"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:inputType="number"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"/>
+
+        <EditText
+            android:id="@+id/edtskill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Skill"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"/>
+
+        <EditText
+            android:id="@+id/edtcompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Company Name"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"/>
+
+
+        <EditText
+            android:id="@+id/edtjEducation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Education"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+        <!--     <RadioGroup-->
+<!--         android:layout_width="wrap_content"-->
+<!--         android:orientation="horizontal"-->
+<!--         android:layout_height="match_parent">-->
+
+<!--         <RadioButton-->
+<!--             android:layout_width="wrap_content"-->
+<!--             android:layout_height="match_parent"-->
+<!--             android:id="@+id/RbtnMale"-->
+<!--             android:text="Male"-->
+<!--             android:textSize="@dimen/_15sdp"/>-->
+<!--         <RadioButton-->
+<!--             android:layout_width="wrap_content"-->
+<!--             android:layout_height="match_parent"-->
+<!--             android:text="Femal"-->
+<!--             android:id="@+id/RbtnFeale"-->
+<!--             android:layout_marginLeft="@dimen/_10sdp"-->
+<!--             android:textSize="@dimen/_15sdp"/>-->
+<!--         <RadioButton-->
+<!--             android:layout_width="wrap_content"-->
+<!--             android:layout_height="match_parent"-->
+<!--             android:text="Other"-->
+<!--             android:id="@+id/RbtOther"-->
+<!--             android:layout_marginLeft="@dimen/_10sdp"-->
+<!--             android:textSize="@dimen/_15sdp"/>-->
+<!--     </RadioGroup>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/texResent"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/bgboder"
+            android:padding="@dimen/_10sdp"
+            android:text="Reset"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp" />
+
+
+        <TextView
+            android:id="@+id/texSave"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/bgboder"
+        android:padding="@dimen/_10sdp"
+        android:text="Save"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_30sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp" />
+
+    </LinearLayout>
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/idRLContainer"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        tools:context=".MainActivity">-->
+
+<!--        &lt;!&ndash;on below line we are creating-->
+<!--            a text for our app&ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/idTVHeading"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_above="@id/idTVSelectedDate"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:gravity="center"-->
+<!--            android:padding="10dp"-->
+<!--            android:text="Date Picker Dialog in Android"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        &lt;!&ndash;on below line we are creating a text view&ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/idTVSelectedDate"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_above="@id/idBtnPickDate"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:gravity="center"-->
+<!--            android:padding="10dp"-->
+<!--            android:text="Date"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        &lt;!&ndash;on below line we are creating-->
+<!--            a button for date picker&ndash;&gt;-->
+<!--        <Button-->
+<!--            android:id="@+id/idBtnPickDate"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginEnd="20dp"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:text="Pick Date"-->
+<!--            android:textAllCaps="false" />-->
+
+<!--    </RelativeLayout>-->
+</LinearLayout>

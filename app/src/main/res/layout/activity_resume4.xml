@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cvbackground"
+    android:orientation="vertical"
+    tools:context=".resume4Activity">
+
+
+
+
+        <TextView
+            android:id="@+id/txtNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="number"
+            android:maxLength="10"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_200sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtDOB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="dob"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_200sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="normal" />
+
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="email"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_190sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="normal" />
+
+
+
+    <TextView
+        android:id="@+id/txtAddresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="addresh"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginLeft="@dimen/_200sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="normal" />
+
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="name"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_25ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtschool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_210sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="normal"
+        tools:text="school" />
+
+
+
+    <TextView
+        android:id="@+id/txtYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Year"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_200sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="normal" />
+
+
+    <TextView
+        android:id="@+id/txtCname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="company name"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_200sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="normal" />
+
+
+
+
+    <TextView
+        android:id="@+id/txtSkill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Skill"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_200sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txtEducation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Education"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_200sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="normal" />
+
+</LinearLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".resumeActivity2">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="SELECT YOUR CV LANGUAGE"
+       android:textSize="@dimen/_17sdp"
+       android:textColor="@color/black"
+       android:textStyle="bold"
+       android:layout_marginTop="@dimen/_15sdp"
+       android:layout_marginLeft="@dimen/_38sdp"
+       style="@style/TextAppearance.Material3.BodyLarge"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="This app will continue in English but your CV will be in your chosen language"
+       android:textSize="@dimen/_13sdp"
+       android:textColor="@color/black"
+       android:layout_marginTop="@dimen/_20sdp"
+       android:layout_marginRight="@dimen/_10sdp"
+       android:layout_marginLeft="@dimen/_12sdp"
+       style="@style/TextAppearance.Material3.BodyLarge"/>
+
+
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginTop="@dimen/_5sdp"
+          app:cardCornerRadius="@dimen/_15sdp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+
+               <TextView
+                   android:id="@+id/txtEnglish"
+                   android:layout_width="@dimen/_120sdp"
+                   android:layout_height="@dimen/_50sdp"
+                   android:textSize="@dimen/_20sdp"
+                   android:layout_marginTop="@dimen/_20sdp"
+                   android:background="@drawable/bgboder"
+                   android:gravity="center"
+                   android:padding="@dimen/_10sdp"
+                   android:text="English"
+                   android:textColor="@color/black" />
+
+               <TextView
+                   android:layout_width="@dimen/_120sdp"
+                   android:layout_height="@dimen/_50sdp"
+                   android:textSize="@dimen/_20sdp"
+                   android:layout_marginLeft="@dimen/_20sdp"
+                   android:layout_marginTop="@dimen/_20sdp"
+                   android:background="@drawable/bgboder"
+                   android:gravity="center"
+                   android:padding="@dimen/_10sdp"
+                   android:text="Deutsch"
+                   android:textColor="@color/black"
+                   />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+
+               <TextView
+                   android:layout_width="@dimen/_120sdp"
+                   android:layout_height="@dimen/_50sdp"
+                   android:textSize="@dimen/_20sdp"
+                   android:background="@drawable/bgboder"
+                   android:gravity="center"
+                   android:padding="@dimen/_10sdp"
+                   android:text="Francais"
+                   android:textColor="@color/black"
+                   />
+
+               <TextView
+                   android:layout_width="@dimen/_120sdp"
+                   android:layout_height="@dimen/_50sdp"
+                   android:textSize="@dimen/_20sdp"
+                   android:layout_marginLeft="@dimen/_20sdp"
+                   android:background="@drawable/bgboder"
+                   android:gravity="center"
+                   android:padding="@dimen/_10sdp"
+                   android:text="Espanol"
+                   android:textColor="@color/black"
+                   />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="@dimen/_120sdp"
+                   android:layout_height="@dimen/_50sdp"
+                   android:textSize="@dimen/_20sdp"
+                   android:background="@drawable/bgboder"
+                   android:gravity="center"
+                   android:padding="@dimen/_10sdp"
+                   android:text="portugues"
+                   android:textColor="@color/black"
+                   />
+
+
+               <TextView
+                   android:layout_width="@dimen/_120sdp"
+                   android:layout_height="@dimen/_50sdp"
+                   android:textSize="@dimen/_20sdp"
+
+                   android:layout_marginLeft="@dimen/_20sdp"
+                   android:background="@drawable/bgboder"
+                   android:gravity="center"
+                   android:padding="@dimen/_10sdp"
+                   android:text="Italiano"
+                   android:textColor="@color/black"
+                   />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+
+               <TextView
+                   android:layout_width="@dimen/_120sdp"
+                   android:layout_height="@dimen/_50sdp"
+                   android:textSize="@dimen/_20sdp"
+                   android:background="@drawable/bgboder"
+                   android:gravity="center"
+                   android:padding="@dimen/_10sdp"
+                   android:text="Polski"
+                   android:textColor="@color/black"
+                   />
+
+               <TextView
+                   android:layout_width="@dimen/_120sdp"
+                   android:layout_height="@dimen/_50sdp"
+                   android:textSize="@dimen/_20sdp"
+                   android:layout_marginLeft="@dimen/_20sdp"
+                   android:background="@drawable/bgboder"
+                   android:gravity="center"
+                   android:padding="@dimen/_10sdp"
+                   android:text="Turkce"
+                   android:textColor="@color/black"
+                   />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/Contunue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contunue"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_25sdp"
+                android:background="@drawable/bgboder"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:padding="@dimen/_10sdp"
+                android:backgroundTint="@color/Green"
+                android:layout_marginLeft="@dimen/_90sdp"/>
+         </LinearLayout>
+
+      </androidx.cardview.widget.CardView>
+   </LinearLayout>
+
